@@ -1,0 +1,24 @@
+artifact_path: "file:C:/Users/nicko/OneDrive/Documentos/Facultad/Ing. Sistemas 5\xB0\
+  a\xF1o/Analisis de datos/Parcial 1 V2/mlruns/1/models/m-582906cf531f435b9586d40c21af2e47/artifacts"
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.1
+model_id: m-582906cf531f435b9586d40c21af2e47
+model_size_bytes: 1817
+model_uuid: m-582906cf531f435b9586d40c21af2e47
+prompts: null
+run_id: 9c45d484dc4d4db6a15e3089f08c008a
+utc_time_created: '2026-10-21 04:27:53.208992'

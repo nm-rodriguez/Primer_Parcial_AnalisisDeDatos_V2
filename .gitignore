@@ -1,0 +1,70 @@
+# ==============================================================================
+# GITIGNORE: Proyecto Predicción de Alquileres (Moscú)
+# ==============================================================================
+
+# --- Informes Académicos y Material Teórico ---
+Teoria/
+*.pdf
+INFORME_FINAL_PREDICCION_ALQUILERES_RUSIA.md
+Exposicion Parcial 1.md
+*.docx
+*.pptx
+
+# --- Archivos de Scratch y Pruebas Temporales ---
+scratch_eda.py
+test_split.py
+test_interactions.py
+
+# --- Python & Entornos Virtuales ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints/
+
+# --- IDEs y Editores ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Archivos del Sistema Operativo ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# --- Logs y Temporales ---
+*.log
+*.tmp
